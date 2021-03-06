@@ -6,6 +6,14 @@
     color: #FFFFFF;
 }
 
+body {
+    font-size: 14px;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #E6EFF5;
+    overflow-x: hidden;
+}
+
 #container {
     height: 100%;
     width: 100%;
@@ -15,6 +23,7 @@
 #top {
     background-color: #FFFFFF;
     padding: 25px;
+    margin: 16px 25px 0 25px;
 }
 
 #top h4,
@@ -36,7 +45,7 @@
 
 #bottom {
     display: flex;
-    padding: 25px;
+    padding: 0 25px 16px 25px;
 }
 
 #bottom_left {
@@ -53,6 +62,7 @@ button {
 
 #bottom_left #price {
     font-size: 36px;
+    margin-right: 14px;
 }
 
 button {
@@ -60,6 +70,8 @@ button {
     padding: 10px 18px;
     width: 100%;
     border-radius: 7px;
+    border: none;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.10);
 }
 
 #bottom_right {
@@ -76,4 +88,14 @@ button {
 
 #bottom_right li {
     margin-top: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
